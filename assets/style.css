@@ -261,11 +261,11 @@ body {
       padding-bottom:18vh; 
     }
     .logo{
-      padding-top: 3vh;
-      margin-bottom: 3vh;
+      padding-top: 2vh;
+      margin-bottom: 2vh;
     }
     .c-us, .l-msg{
-     margin-top: 12vh;
+     margin-top: 10vh;
     }
     input[type=text] {
       width: 230px;
@@ -289,3 +289,134 @@ body {
     }
     
    }
+
+   
+
+ .vertical {
+    writing-mode: vertical-rl;
+    float: right;
+    background: #007bff;
+    color: white;
+    border: 1px solid #007bff;
+    padding: 10px;
+    padding-top: 30px; 
+    padding-bottom: 30px;
+    margin-left: 100vh;
+    margin-top: 5vh
+}
+
+#info {
+    float: left;
+    padding-top: 100px;
+    /* margin-left: 10vh */
+}
+
+#photo {
+    float: right;
+}
+#photo img {
+    width: 500px;
+    height: 280px;
+}
+
+.center-why{
+    text-align: center;
+    margin-top: 75vh
+}
+
+@media only screen and (max-width: 740px) {
+    #info {
+        float: none;
+        display: block;
+        text-align: center;
+        padding-top: 60px;
+    }
+    
+    #photo {
+        float: none;
+        display: block;
+        text-align: center;
+    }
+    .w3-center{
+        padding-bottom: 5vh;
+    }
+    .equal{
+        padding-top: 2vh;
+    }
+    .vertical{
+        float: none;
+        margin-left: 24vh;
+    }
+    .center-why{
+        text-align: center;
+        margin-top: 6vh;
+    }
+    #photo img {
+        width: 400px;
+        /* height: 280px; */
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #info {
+        float: none;
+        display: block;
+        text-align: center;
+        padding-top: 60px;
+    }
+    /* #photo {
+        float: none;
+        display: block;
+        text-align: center;
+    } */
+    #photo img {
+        width: 250px;
+        /* height: 280px; */
+    }
+    .vertical{
+        float: none;
+        margin-left: 24vh;
+    }
+    .center-why{
+        text-align: center;
+        margin-top: 6vh;
+    }
+    .w3-center{
+    padding-bottom: 5vh;
+}
+.equal{
+    padding-top: 2vh;
+}
+}
+
+.equal{
+    margin-top: 0vh;
+}
+
+.bg-light{
+    background-color:rgb(224, 223, 223);
+}
+.mySlides {
+    border-radius: 50%;
+    width:200px;
+}
+.w3-center, .w3-content{
+    display: flex;
+    justify-content: center;
+}
+ .w3-light-grey{
+    background: #f1f1f1;   
+}
+.w3-button{
+border: none;
+display: inline-block;
+padding: 8px 16px;
+vertical-align: middle;
+overflow: hidden;
+text-decoration: none;
+color: inherit;
+background-color: inherit;
+text-align: center;
+cursor: pointer;
+white-space: nowrap;
+}
